@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Lenovo-wallpaper-6_DcyKDyp.jpg);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#box4 {
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center; 
+    color: white;
+    border: 3px solid white;
+    width: 350px;
+    height: 280px;
+    border-radius: 15px;
+    background: rgba(237, 785, 20, 0.5);
+    padding: 10px;
+    overflow: auto;
+}
+
+p {
+    margin: 8px 0;
+}
+
+#box1 {
+    border: 3px solid white;
+    width: 350px;
+    height: 280px;
+    background: rgba(25, 20, 837, 0.5);
+    border-radius: 15px;
+    position: relative;
+    padding: 10px;
+    color: #fff;
+}
+
+#box5 {
+    margin: 10px 0;
+}
+
+#box6,
+#box7 {
+    display: none;
+}
+
+#redag {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: gainsboro;
+}
+
+#styl {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: gainsboro;
+}
+
+#myText {
+    width: 315px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#TextX {
+    background-color: darkseagreen;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#styleText,
+#forma,
+#typeFont {
+    margin: 9px 5px;
+}
+
+#textCol,
+#bgCol {
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+#save,
+#add {
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+#colChan {
+    margin: 20px 15px;
+}
+
+#colFont {
+    width: 152px;
+    height: 154px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: pink;
+    border: 2px double pink;
+    border-bottom: 2px double pink;
+    display: none
+}
+
+#red {
+    width: 96px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    border: 2px solid pink;
+}
+
+#blue {
+    width: 96px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    border: 2px solid pink;
+}
+
+#violet {
+    width: 90px;
+    height: 50px;
+    background-color: violet;
+    border: 2px solid pink;
+}
+
+#orange {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 50px;
+    border: 2px solid pink;
+}
+
+#green {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid pink;
+}
+
+#grey {
+    width: 48px;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 2px solid pink;
+}
+
+#white {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-top: 100px;
+    border: 2px solid pink;
+}
+
+#yellow {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid pink;
+}
+
+#black {
+    width: 48px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid pink;
+}
+
+#table_list_container {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #00ffbb80;
+    width: 450px;
+    height: 500px;
+    font-size: 18px;
+}
+
+#elem_number {
+    display: flex;
+    flex-direction: column;
+    margin: 0 180px;
+}
+
+#rows {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#columns {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+h3,
+h2 {
+    margin: 10px 5px;
+}
+
+#create_list {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+border: 2px solid black;
+}
+
+#elem_number {
+    width: 50px;
+    margin-top: -20px;
+    margin-left: 195px;
+    border-radius: 10px;
+}
+
+#create_list_button,
+#create_table_button {
+    width: 80px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#cellWidth,
+#borderWidth {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#cellHeight {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#typeBorder,
+#getColor,
+#list_marker {
+    width: 75px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-top: 8px;
+}
+
+#list_marker {
+    margin-top: 8px;
+}

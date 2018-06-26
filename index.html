@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box" >
+        <div id="box4">
+            <p>Write me, please</p>
+            <p>Write me, please</p>
+            <p>Write me, please</p>
+            <p>Write me, please</p>
+            <p>Write me, please</p>
+        </div>
+        <div id="box5">
+            <input type="button" id="redag" value="Mutate">
+            <input type="button" id="styl" value="Style"> </div>
+        <div id="box1">
+            <div id="box6">
+                <textarea name="" id="myText" cols="30" rows="10"></textarea>
+                <input type="button" id="save" value="Save">
+                <input type="button" id="add" value="Add">
+                </div>
+                <div id="box7">
+                    <form id="styleText">
+                        <span>
+							<b>Text size:</b>
+						</span>
+                        <input type="radio" name="pt" value="12pt"> 12pt
+                        <input type="radio" name="pt" value="14pt" checked> 14pt
+                        <input type="radio" name="pt" value="16pt"> 16pt
+                        <input type="radio" name="pt" value="18pt"> 18pt
+                        <input type="radio" name="pt" value="20pt"> 20pt </form>
+                    <form id="forma">
+                        <span>
+							<b>Font text:</b>
+						</span>
+                        <select name="" id="TextX">
+							<option id="shr" value="Italic">Italic</option>
+							<option id="shr" value="Fantasy">Fantasy</option>
+							<option id="shr" value="Symbol">Symbol</option>
+							<option id="shr" value="TimesNewRoman">Times New Roman</option>
+							<option id="shr" value="Bold">Bold</option>
+							<option id="shr" value="Cursive">Cursive</option>
+							<option id="shr" value="Edwardian Script ITC">Edwardian Script ITC</option>
+						</select>
+                    </form>
+                    <div id="colChan">
+                        <input type="button" name="" id="textCol" value="Text color">
+                        <input type="button" name="" id="bgCol" value="Background color">
+                        <div id="colFont">
+                            <div id="red"></div>
+                            <div id="blue"></div>
+                            <div id="violet"></div>
+                            <div id="orange"></div>
+                            <div id="green"></div>
+                            <div id="yellow"></div>
+                            <div id="grey"></div>
+                            <div id="white"></div>
+                            <div id="black"></div>
+                        </div>
+                    </div>
+                    <div id="typeFont">
+                        <input type="checkbox" name="checkbox" id="boldFont" value="bold"> Bold text
+                        <input type="checkbox" name="checkbox1" id="cursiveFont" value="italic"> Italic text
+                    </div>
+                </div>
+        </div>
+        <div id="table_list_container" style="display:none;">
+            <h2>Choose what are you want to create:</h2>
+            <div id="radio-group">
+                <input type="radio" name="list_table" id="radio_table" checked>
+                <label>Table:</label>
+                <input type="radio" name="list_table" id="radio_list">
+                <label>List:</label>
+            </div>
+
+            <div id="create_list" style="display:none;">
+                <label>
+					Input number of elements:
+					<input id="elem_number" name="elem_number" type="number">
+				</label>
+                <label>Type of marker:
+					<select id="list_marker" name="list_marker">
+						<option value="circle">circle</option>
+						<option value="disk">disk</option>
+						<option value="square">square</option>
+					</select>
+				</label>
+                <button id="create_list_button">Create list</button>
+            </div>
+
+            <form id="create_table">
+                <div id="table">
+                    <div>
+                        <label>
+							Number for Lines:
+							<input type="text" id="rows">
+						</label>
+                        <br>
+                        <label>
+							Number for Columns:
+							<input type="text" id="columns">
+						</label>
+                    </div>
+                    <h3>Add style for your table</h3>
+                    <form id="styleTable">
+                        <label>Width:
+                        <input type="text" id="cellWidth"></label>
+                        <label>
+                        Height:
+                        <input type="text" id="cellHeight"></label>
+                        <label>Border width:
+                        <input type="text" id="borderWidth"></label>
+                        <label>Type:</label>
+                        <select id="typeBorder">
+							<option>solid</option>
+							<option>double</option>
+							<option>groove</option>
+							<option>dotted</option>
+							<option>dashed</option>
+						</select>
+                        <label>Color: </label>
+                        <label>
+						<select id="getColor">
+							<option>red</option>
+							<option>blue</option>
+							<option>yellow</option>
+							<option>green</option>
+							<option>black</option>
+						</select>
+						</label>
+                        <button id="create_table_button" style="display:block">Create table</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
